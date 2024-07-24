@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border: 1px solid black;
+        }    
+        td, th {
+            border: 1px solid blue;
+            padding: 10px;
+            width: 80px;
+        }
+        body {
+            background-color: rgb(212, 235, 255);
+            background-image: url(../chap01/images/first.jpg);
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>colgroup 연습</caption>
+        <colgroup>
+            <col>
+            <col span="2" style="background-color: blue;">
+            <col style="background-color: yellow;">
+        </colgroup>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+
+    <br><br><br><br><br>
+    
+    <table>
+        <caption>1인당 연간 설탕 소비량 <small>(단위: kg)</small></caption>
+        <colgroup>
+            <col style="background-color: rgb(196, 197, 199);">
+            <col>
+        </colgroup>
+        <tr>
+            <th>WHO 권장량</th>
+            <td>10</td>
+        </tr>
+        <tr>
+            <th>한국</th>
+            <td>11</td>
+        </tr>
+        <tr>
+            <th>중국</th>
+            <td>12</td>
+        </tr>
+        <tr>
+            <th>싱가포르</th>
+            <td>13</td>
+        </tr>
+        <tr>
+            <th>미국</th>
+            <td>14</td>
+        </tr>
+        <tr>
+            <th>브라질</th>
+            <td>15</td>
+        </tr>
+        <tr>
+            <th>세계평균</th>
+            <td>16</td>
+        </tr>
+    </table>
+</body>
+</html>
